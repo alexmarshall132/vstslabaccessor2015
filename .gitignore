@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Solutions/VstsTestLabAccessor2015/.vs/VstsTestLabAccessor2015/v14/.suo
+/Projects/VstsLabAccessor2015/obj/Debug
