@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VstsLabAccessor2015", "..\..\Projects\VstsLabAccessor2015\VstsLabAccessor2015.csproj", "{E1A29DDF-320C-462A-B784-B170E31AFF29}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{0BF19465-D96F-4F29-9F07-75D3F414F9A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1A29DDF-320C-462A-B784-B170E31AFF29} = {0BF19465-D96F-4F29-9F07-75D3F414F9A3}
 	EndGlobalSection
 EndGlobal
