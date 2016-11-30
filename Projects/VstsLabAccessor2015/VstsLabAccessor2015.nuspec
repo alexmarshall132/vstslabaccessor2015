@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Alex Marshall</authors>
+    <owners>West Peaks Consulting</owners>
+    <licenseUrl>http://westpeaksconsulting.azurewebsites.net</licenseUrl>
+    <projectUrl>http://westpeaksconsulting.azurewebsites.net</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+		A simple library that uses the VSTS REST API to retrieve configuration values for Test Management Test Configurations in VSTS for use in tests at runtime.
+	</description>
+    <releaseNotes>Initial usable release.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>VSTS Test Management Configuration Variables</tags>
+  </metadata>
+</package>
