@@ -12,6 +12,14 @@ namespace VstsLabAccessor2015
 		private const string RepositoryPrefix = "REPOSITORY_";
 
 		/// <summary>
+		/// Initializes a new instance of the <see cref="VstsBuildVariables"/> class.
+		/// </summary>
+		public VstsBuildVariables()
+		{
+			this.Repository = new VstsBuildRepositoryVariables();
+		}
+
+		/// <summary>
 		/// Gets the file system path to the artifact staging directory
 		/// </summary>
 		public string ArtifactStagingDirectory { get; private set; }

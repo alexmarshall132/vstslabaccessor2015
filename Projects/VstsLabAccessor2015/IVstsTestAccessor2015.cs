@@ -13,7 +13,10 @@
 		/// Gets the test configuration variables for the specified environment
 		/// </summary>
 		/// <param name="env">
-		///     The current environment. Must not be null.
+		/// The current environment. Must not be null.
+		/// </param>
+		/// <param name="configurationName">
+		/// The name of the desired configuration. Must not be null or empty.
 		/// </param>
 		/// <returns>
 		/// A <see cref="IDictionary{TKey,TValue}"/> of the properties available for the 
@@ -26,6 +29,6 @@
 		/// Thrown if there are any problems retrieving the configuration values for the
 		/// current test configuration.
 		/// </exception>
-		Task<IDictionary<string, string>> GetTestConfigurationPropertiesAsync(VstsEnvironmentVariables env);
+		Task<IDictionary<string, string>> GetTestConfigurationPropertiesAsync(VstsEnvironmentVariables env, string configurationName);
 	}
 }

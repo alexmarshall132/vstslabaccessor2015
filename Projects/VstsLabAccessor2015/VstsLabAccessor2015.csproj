@@ -99,6 +99,8 @@
     <Compile Include="IReadFromProperties.cs" />
     <Compile Include="IVstsTestAccessor2015.cs" />
     <Compile Include="PropertyHelper.cs" />
+    <Compile Include="TestConfig.cs" />
+    <Compile Include="TestConfigValue.cs" />
     <Compile Include="VstsAgentVariables.cs" />
     <Compile Include="VstsBuildRepositoryVariables.cs" />
     <Compile Include="VstsBuildVariables.cs" />

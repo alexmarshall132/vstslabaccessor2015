@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B7C83375-442B-42B4-B83B-C891E7991646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VstsLabAccessor2015.Tests", "..\..\Projects\VstsLabAccessor2015.Tests\VstsLabAccessor2015.Tests.csproj", "{8D2CF302-9BBE-496F-93AC-6381EF6BBE0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +27,16 @@ Global
 		{E1A29DDF-320C-462A-B784-B170E31AFF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1A29DDF-320C-462A-B784-B170E31AFF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1A29DDF-320C-462A-B784-B170E31AFF29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D2CF302-9BBE-496F-93AC-6381EF6BBE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2CF302-9BBE-496F-93AC-6381EF6BBE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2CF302-9BBE-496F-93AC-6381EF6BBE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2CF302-9BBE-496F-93AC-6381EF6BBE0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E1A29DDF-320C-462A-B784-B170E31AFF29} = {0BF19465-D96F-4F29-9F07-75D3F414F9A3}
+		{8D2CF302-9BBE-496F-93AC-6381EF6BBE0A} = {B7C83375-442B-42B4-B83B-C891E7991646}
 	EndGlobalSection
 EndGlobal

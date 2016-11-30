@@ -1,13 +1,9 @@
-﻿using System;
-namespace VstsLabAccessor2015
+﻿namespace VstsLabAccessor2015
 {
 	using System;
 	using System.Collections;
 	using System.Collections.Generic;
-	using System.ComponentModel;
-	using System.Diagnostics;
 	using System.Linq;
-	using System.Reflection;
 
 	/// <summary>
 	/// Represents the set of VSTS environment variables.

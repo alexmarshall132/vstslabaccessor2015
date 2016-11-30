@@ -7,6 +7,15 @@ namespace VstsLabAccessor2015
 	public class VstsBuildRepositoryVariables : IReadFromProperties
 	{
 		/// <summary>
+		/// Initializes a new instance of the <see cref="VstsBuildRepositoryVariables"/> class.
+		/// </summary>
+		public VstsBuildRepositoryVariables()
+		{
+			this.Tfvc = new VstsTfvcBuildRepositoryVariables();
+			this.Git = new VstsGitBuildRepositoryVariables();
+		}
+
+		/// <summary>
 		/// Gets the Clean value selected on the repository tab
 		/// </summary>
 		public string Clean { get; private set; }
