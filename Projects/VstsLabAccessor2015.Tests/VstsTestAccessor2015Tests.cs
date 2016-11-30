@@ -45,7 +45,7 @@ namespace VstsLabAccessor2015.Tests
 		/// <returns>
 		/// A <see cref="Task"/> for executing this test asynchronously.
 		/// </returns>
-		[TestMethod]
+		[TestMethod, TestCategory("DevAcceptance")]
 		public async Task VerifyQueryIsCorrectlyParsed()
 		{
 			var values = new Dictionary<string, string>
