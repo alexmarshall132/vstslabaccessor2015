@@ -151,7 +151,14 @@
 				return new AuthenticationHeaderValue("Basic", Convert.ToBase64String(Encoding.UTF8.GetBytes(String.Format("{0}:{1}", this.credentials.UserName, this.credentials.Password))));
 			}
 
-			return new AuthenticationHeaderValue("Bearer", env.System.AccessToken);
+		    string accessToken = env.System.AccessToken;
+
+		    if (String.IsNullOrEmpty(accessToken))
+		    {
+		        throw new InvalidOperationException("Failed to resolve System.AccessToken as it was blank in the VSTS variables provided to the test");
+		    }
+
+		    return new AuthenticationHeaderValue("Bearer", accessToken);
 		} 
 
 		#endregion
