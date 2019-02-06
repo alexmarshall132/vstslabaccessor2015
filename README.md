@@ -97,6 +97,12 @@ public class MyTestSuite
             password: Environment.GetEnvironmentVariable("VSTSALTERNATEAUTH_PASSWORD")
         );
     }
+
+    [TestMethod]
+    public void TestThings()
+    {
+        Assert.IsTrue(true, "Implement test logic here");
+    }
 }
 ```
 
